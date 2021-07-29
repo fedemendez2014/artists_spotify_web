@@ -1,9 +1,10 @@
 import React, { FC } from 'react';
+import ArtistSearch from './components/artist/ArtistSearch';
 
 const App: FC = () => {
   return (
-    <div className="App">
-
+    <div>
+        <ArtistSearch />
     </div>
   );
 }
